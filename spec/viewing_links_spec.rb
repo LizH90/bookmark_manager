@@ -6,8 +6,7 @@ feature 'Viewing links' do
 
     visit '/links'
 
-    # this is a *temporary* sanity check - to make sure we
-    # can load the page :)
+  
     expect(page.status_code).to eq 200
 
 

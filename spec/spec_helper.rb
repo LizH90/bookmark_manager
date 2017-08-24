@@ -1,5 +1,7 @@
 require 'capybara/rspec'
+require 'database_cleaner'
 require_relative '../app'
+
 
 Capybara.app = BookmarkManager
 
